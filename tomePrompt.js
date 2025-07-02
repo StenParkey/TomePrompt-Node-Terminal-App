@@ -32,7 +32,7 @@ function startUpInterface() {
                 break;
 
             default: 
-                console.log('\nPlease input a valid username...');
+                console.log('\nPlease input a valid username... or hit CTRL+C on the keyboard to exit');
                 startUpInterface();
                 break;
         };
